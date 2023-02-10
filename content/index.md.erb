@@ -1,0 +1,26 @@
+---
+title: "Sparnatural : a visual knowledge graph exploration tool"
+---
+<header markdown="1">
+# <%= @item[:title] %>
+
+{:#authors}
+- <%= person 'Thomas Francart', 'http://sparna.fr', 'http://sparnatural.eu' %>
+
+{:#affiliations}
+- {:#myaffiliation} Sparna
+
+<%= section 'abstract' %>
+</header>
+
+<main>
+  <!-- Add sections by specifying their file name, excluding the '.md' suffix. -->
+  <%= section 'introduction' %>
+  <%= section 'what_is_sparnatural' %>
+  <%= section 'demonstrators' %>
+  <%= section 'configuration' %>
+  <%= section 'related_work' %>
+  <%= section 'conclusion' %>
+</main>
+
+<footer></footer>
