@@ -3,6 +3,5 @@
 
 .sass-cache
 tmp
-output
 *.log
 *.diff
